@@ -1,6 +1,7 @@
 ---
-title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+title: Improving a Product Through Data and Testing
+date: "2020-02-01T22:12:03.284Z"
+description: Improving a Product Through Data and Testing
 ---
 
 Wow! I love blogging so much already.

@@ -37,15 +37,18 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(1),
+        paddingTop: rhythm(.5),
+        paddingLeft: rhythm(1),
+        background: `#f2f2f2`
       }}
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
+          marginRight: rhythm(1),
+          marginBottom: rhythm(.5),
           minWidth: 50,
           borderRadius: `100%`,
         }}
@@ -53,12 +56,10 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+      <p>Written by <strong>{author}</strong> who lives and works in Denver,CO.
+      {` `}You should connect with him on{` `}
+        <a href={`https://linkedin.com/in/${social.twitter}`} target="_blank" rel="noopener noreferrer">
+           LinkedIn
         </a>
       </p>
     </div>

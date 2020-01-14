@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Hawkins Design`,
-    author: `Andrew Hawkins`,
+    author: `Andrew Glassett`,
     description: `A design shop focusing on product & graphic design`,
     siteUrl: `https://hawkinsdesign.co`,
     social: {
@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/work`,
+        name: `work`,
       },
     },
     {

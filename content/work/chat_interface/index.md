@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Remote Teams, Startups, and Chat Interfaces
+date: "2020-01-01T22:12:03.284Z"
+description: Remote Teams, Startups, and Chat Interfaces
 ---
 
 This is my first post on my new fake blog! How exciting!
