@@ -14,7 +14,7 @@ class AboutPage extends React.Component {
         <SEO title="About Hawkins Design" />
         <h1>Hello & Welcome</h1>
         <h2>I have been designing digital things & processes for 12 years now. I love solving problems, especially when I can use data and user research to create a methodology.</h2>
-        <a href="/">LinkedIn</a>{` `}
+        <a href="https://linkedin.com/in/andrewglassett" target="_blank" rel="noopener noreferrer">LinkedIn</a>{` `}
         <a href="https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing">Download Resume</a>
         <h2>Recent Experience</h2>
         <h3>Product Design Consultant - Sony Music Entertainment | Current</h3>
