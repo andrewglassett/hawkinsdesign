@@ -37,10 +37,8 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(1),
-        paddingTop: rhythm(.5),
-        paddingLeft: rhythm(1),
-        background: `#f2f2f2`
+        maxWidth: rhythm(24),
+        marginTop: rhythm(3)
       }}
     >
       <Image
@@ -48,18 +46,24 @@ const Bio = () => {
         alt={author}
         style={{
           marginRight: rhythm(1),
-          marginBottom: rhythm(.5),
-          minWidth: 50,
+          minWidth: 75,
+          minHeight: 75,
           borderRadius: `100%`,
         }}
         imgStyle={{
           borderRadius: `50%`,
         }}
       />
-      <p>Written by <strong>{author}</strong> who lives and works in Denver,CO.
-      {` `}You should connect with him on{` `}
+      <p>Hawkins Design is <strong>{author}</strong> who lives and works in Denver, CO.
+      {` `}
         <a href={`https://linkedin.com/in/${social.twitter}`} target="_blank" rel="noopener noreferrer">
            LinkedIn
+        </a>{` `}
+        <a href={`/about`}>
+           View Bio
+        </a>{` `}
+        <a href={`https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing`}>
+           Resume
         </a>
       </p>
     </div>

@@ -1,55 +1,86 @@
 ---
-title: Redesigning a Core Business Offering
-date: "2020-02-01T22:12:03.284Z"
+title: Taking Care When Redesigning a Business
+date: "2018-08-28T22:12:03.284Z"
 description: Redesigning a Core Business Offering
 ---
+## The Product Being Redesigned
+The Orchard's application suite Workstation was originally designed in 2006, and has become outdated both visually and out of touch with the industry.
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+![Old Workstation 1](./before1.png)
 
-## On deer horse aboard tritely yikes and much
+78% of The Orchard’s revenue comes from audio content, and all this content must be entered through Workstation.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+The old experience experience was a long and precarious form in a modal. Users hated this thing. It was slow, and often closed without saving. It had become difficult to maintain and was behind in style, language and interaction.
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+![Old Workstation 1](./before2.png)
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+After using the system for a month for actual products I was releasing, I ran a series of workshops to start the redesign.
 
-### Overlaid the jeepers uselessly much excluding
+## Workshops
+The workshop team consisted of a designer, a product manager, a technology director, and also the VP of Product who acted as the decision maker. It made it much easier to express more user centered experiences for me because I had actually used the system in a real life context.
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+In this exercise, we did a card sorting exercise to define the critical user path for Release Builder.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+![Critical User Path](./user-journey.png)
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+We then moved on to some quickfire design exercises to get people thinking in terms of user experience. The first was crazy 8's, where we sketched out 8 quick ideas. We then voted on the best ideas.
 
-### According a funnily until pre-set or arrogant well cheerful
+![Crazy 8s](./crazy8.jpg)
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+In another exercise, everyone is the group sketched ideas about the entire flow and we then voted on the best ideas.
+
+![Userflow2](./userflow2.jpg)
+
+The sprint allowed us to make decisions as a team, and be unified in our strategy.
+
+## Wireframes and Stakeholder Feedback
+The next part of the process was for me to quickly create wireframes that were sent to members of the sprint team, and also to stakeholders. We learned that our particular audience needed more fidelity, but using comic sans helped them know that this was just a representation of designs to come.
+
+![Wireframes](./wireframe.png)
+
+We uncovered some pretty serious holes in requirements that were able to be updated before moving into an in-depth design or development cycle.
+
+## High Fidelity and User Testing
+Next, I created high fidelity designs and prototyped the experience in Invision. I used Lookback.io to interview some users and validate our ideas before being developed.
+
+We identified some problems with the designs, mainly dealing with navigation.
+
+![Usability Testing](./user-research.png)
+
+The next step was to work with the product managers to figure out a release plan for the new version.
+
+## The "Final" Design
+In product design, there is no real final design, as things should change as users and the business change over time.
+
+![Product Builder 1](./product-builder1.jpg)
+
+![Product Builder 2](./product-builder2.jpg)
+
+## Gathering User Feedback
+The initial response was overwhelmingly positive, and it allowed us to launch the redesign to launch to larger groups and continue to get more and more feedback.
+
+After a year, we gave another survey, and found that while design and usability had improved, the bigger issue was speed and performance. The company is currently investing heavily in improving architecture and load times. Here is a rundown of findings and metrics before and after the redesign:
+
+### _Learning:_ The system is too slow
+#### Metric - Speed & Performance Score
+- Before **2.83 / 5**
+- After **3.87 / 5**
+
+### _Learning:_ Users needed more tools for scheduling their product releases
+#### Metric - Overall Customer Satisfaction Score
+- Before **3.14 / 5**
+- After **3.75 / 5**
+
+### _Learning:_ Users wanted more feedback about errors
+#### Metric - Rate of errors in form fields via Mouseflow
+- Before **21%**
+- After **12%**
+
+
+
+<!-- **Italic Mountains** _Bookmarksgrove_
+
+[Longe and Parole](http://google.com)
 
 1.  So baboon this
 2.  Mounted militant weasel gregariously admonishingly straightly hey
@@ -57,52 +88,8 @@ made herself on the way.
 4.  Rash opossum less because less some amid besides yikes jeepers frenetic
     impassive fruitlessly shut
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
 
 > The copy warned the Little Blind Text, that where it came from it would have
 > been rewritten a thousand times and everything that was left from its origin
 > would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+> return to its own, safe country. -->

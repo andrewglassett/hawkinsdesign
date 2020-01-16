@@ -44,9 +44,6 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-          <footer>
-            <Bio />
-          </footer>
         </article>
 
         <nav>
@@ -60,21 +57,24 @@ class BlogPostTemplate extends React.Component {
             }}
           >
             <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  ← {next.frontmatter.title} 
                 </Link>
               )}
             </li>
             <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                   {previous.frontmatter.title} →
                 </Link>
               )}
             </li>
           </ul>
         </nav>
+        <footer>
+          <Bio />
+        </footer>
       </Layout>
     )
   }
