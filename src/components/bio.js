@@ -64,7 +64,10 @@ const Bio = () => {
         </a>{` `}
         <a href={`https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing`}>
            Resume
-        </a>
+        </a>{` `}
+        <a href={`https://github.com/andrewglassett/hawkinsdesign`} target="_blank" rel="noopener noreferrer">
+           LinkedIn
+        </a>{` `}
       </p>
     </div>
   )
