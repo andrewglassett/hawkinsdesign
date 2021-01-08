@@ -54,18 +54,18 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>Hawkins Design is <strong>{author}</strong> who lives and works in Denver, CO.
+      <p>Hawkins Design is the product designer <strong>{author}</strong> who lives and works in Denver, CO.
       {` `}
-        <a href={`https://linkedin.com/in/${social.twitter}`} target="_blank" rel="noopener noreferrer">
-           LinkedIn
-        </a>{` `}
-        <a href={`/about`}>
-           View Bio
-        </a>{` `}
-        <a href={`https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing`}>
-           Resume
-        </a>{` `}
-      </p>
+          <a href={`https://linkedin.com/in/${social.twitter}`} target="_blank" rel="noopener noreferrer">
+             LinkedIn
+          </a>{` `}
+          <a href={`/about`}>
+             View Bio
+          </a>{` `}
+          <a href={`https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing`}>
+             Resume
+          </a>{` `}
+          </p>
     </div>
   )
 }
