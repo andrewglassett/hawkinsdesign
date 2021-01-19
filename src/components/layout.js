@@ -34,7 +34,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Rosario, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -65,6 +65,27 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()} Hawkins Design
           {` `}
+          <a
+            style={{
+              marginRight: rhythm(1/2),
+              marginLeft: rhythm(1/2),
+            }}
+            href={`/`}><span role="img" aria-label="Home">🏠</span> Home</a>{` `}
+          <a
+            style={{
+              marginRight: rhythm(1/2),
+            }}
+            href={`https://linkedin.com/in/andrewglassett`} target="_blank" rel="noopener noreferrer"><span role="img" aria-label="LinkedIn">🔗</span> LinkedIn
+          </a>{` `}
+          <a
+            style={{
+              marginRight: rhythm(1/2),
+            }}
+             href={`/about`}><span role="img" aria-label="Bio">🧔</span> Bio
+          </a>{` `}
+          <a href={`https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing`} target="_blank" rel="noopener noreferrer">
+             <span role="img" aria-label="Resume">📄</span> Resume
+          </a>{` `}
         </footer>
       </div>
     )

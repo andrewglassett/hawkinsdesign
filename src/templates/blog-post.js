@@ -54,12 +54,13 @@ class BlogPostTemplate extends React.Component {
               justifyContent: `space-between`,
               listStyle: `none`,
               padding: 0,
+              marginLeft: 0,
             }}
           >
             <li>
               {next && (
                 <Link to={next.fields.slug} rel="next">
-                  ← {next.frontmatter.title} 
+                  ← {next.frontmatter.title}
                 </Link>
               )}
             </li>

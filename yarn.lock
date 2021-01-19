@@ -12755,6 +12755,11 @@
     "gray-percentage" "^2.0.0"
     "typography-breakpoint-constants" "^0.16.19"
 
+"typography-theme-noriega@^0.16.19":
+  "integrity" "sha512-tmEbX6Kiot0mQk3GoaD7fkEFbFG9jpscrh8J1CP6DCs7sJNtuAVZUqIplvXxn1H7+HDORb7OGOKMx9KiRSCyfA=="
+  "resolved" "https://registry.npmjs.org/typography-theme-noriega/-/typography-theme-noriega-0.16.19.tgz"
+  "version" "0.16.19"
+
 "typography-theme-twin-peaks@^0.16.19":
   "integrity" "sha512-F0XsKQU1hNEfzoE9gCJLgbp5Whxv0+Skkp8axCcqCg1AP4MI5WrljjIj8bQOsUA/TjipvCb9wm5FmGR1ZalO8A=="
   "resolved" "https://registry.npmjs.org/typography-theme-twin-peaks/-/typography-theme-twin-peaks-0.16.19.tgz"
@@ -12762,6 +12767,11 @@
   dependencies:
     "gray-percentage" "^2.0.0"
     "typography-breakpoint-constants" "^0.16.19"
+
+"typography-theme-wikipedia@^0.16.19":
+  "integrity" "sha512-h7WMbu72+qPdyUSsd4uvzW2eqCLSkBTQMmGuD4/p/gLxSIvFBz+nc54kcugtH7epxrrxz3lVz9v08zTidHiW/g=="
+  "resolved" "https://registry.npmjs.org/typography-theme-wikipedia/-/typography-theme-wikipedia-0.16.19.tgz"
+  "version" "0.16.19"
 
 "typography-theme-wordpress-2016@^0.16.19":
   "integrity" "sha512-J7AWs8mHQyCtAzvhTs1QcAuzv1QoYsue0xw5U430fBxUystWLQba9OphcycFshgDbm6B/k5ge0d4feYp9xOJ2A=="

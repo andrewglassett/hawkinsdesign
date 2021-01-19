@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Hawkins Design`,
-    author: `Andrew Glassett`,
-    description: `A design shop focusing on product & graphic design`,
+    author: `Andrew Hawkins (Glassett)`,
+    description: `A design shop focusing on product design.`,
     siteUrl: `https://hawkinsdesign.co`,
     social: {
       twitter: `andrewglassett`,
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `G-51RH0LR8LH`,
       },
     },
     `gatsby-plugin-feed`,

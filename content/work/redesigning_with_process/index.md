@@ -1,7 +1,8 @@
 ---
-title: Taking Care When Redesigning a Business
-date: "2018-08-28T22:12:03.284Z"
-description: Redesigning a Core Business Offering
+title: A Crucial Redesign
+date: "2019-08-28T22:12:03.284Z"
+description: When it is a core part of the business, it is worth going the extra mile.
+featuredImage: './featured-image.png'
 ---
 ## The Product Being Redesigned
 The Orchard's application suite Workstation was originally designed in 2006, and has become outdated both visually and out of touch with the industry.

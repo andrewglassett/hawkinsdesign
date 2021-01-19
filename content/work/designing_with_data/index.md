@@ -1,7 +1,8 @@
 ---
 title: Improving a Product Through Data & Testing
-date: "2019-05-12T22:12:03.284Z"
+date: "2019-11-12T22:12:03.284Z"
 description: Can testing small changes bring about big benefits?
+featuredImage: './data_design-hero.jpg'
 ---
 
 Working for a 10 year old technology company means there are a lot of different sources of historical information, data and research. I am interested in taking a little from each of these categories and creating A/B tests that can be run quickly, and have significant impact on our metrics, user experience, and hopefully our bottom line.

@@ -32,13 +32,14 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author } = data.site.siteMetadata
   return (
     <div
       style={{
         display: `flex`,
-        maxWidth: rhythm(24),
-        marginTop: rhythm(3)
+        maxWidth: rhythm(21),
+        marginTop: rhythm(3),
+        marginBottom: rhythm(1),
       }}
     >
       <Image
@@ -54,17 +55,8 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>Hawkins Design is the product designer <strong>{author}</strong> who lives and works in Denver, CO.
+      <p><strong>{author}</strong> is a product designer who lives and works from Denver, CO.
       {` `}
-          <a href={`https://linkedin.com/in/${social.twitter}`} target="_blank" rel="noopener noreferrer">
-             LinkedIn
-          </a>{` `}
-          <a href={`/about`}>
-             View Bio
-          </a>{` `}
-          <a href={`https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing`}>
-             Resume
-          </a>{` `}
           </p>
     </div>
   )

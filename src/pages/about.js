@@ -14,10 +14,10 @@ class AboutPage extends React.Component {
         <SEO title="About Hawkins Design" />
         <h1>Hello & Welcome</h1>
         <h2>I have been designing digital things & processes for 12 years now. I love solving problems, especially when I can use data and user research to create a methodology.</h2>
-        <a href="https://linkedin.com/in/andrewglassett" target="_blank" rel="noopener noreferrer">LinkedIn</a>{` `}
-        <a href="https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing">Download Resume</a>
+        <p><a href="https://linkedin.com/in/andrewglassett" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="LinkedIn">🔗</span> LinkedIn </a>{` `}</p>
+        <a href="https://drive.google.com/file/d/1JJ6EAPshe6jj9zF94v1cN6UJlHDDpX6O/view?usp=sharing"><span role="img" aria-label="Resume">📄</span> View Resume</a>
         <h2>Recent Experience</h2>
-        <h3>Product Design Consultant - Sony Music Entertainment | Current</h3>
+        <h3>Senior Product Designer - Sony Music Entertainment | Current</h3>
         <p>Research tools and methods and influence organization to make more design related decisions. Run design sprints and lead design meetings while working 100% remote.</p>
         <h3>Senior Product Designer - Handy | 2018 - 2019</h3>
         <p>Led and managed a team of product and visual designers. Collaborated with product, growth and engineering teams to create best practices. Created a design system while being the voice of design for the company.</p>
